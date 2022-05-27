@@ -63,7 +63,29 @@ const Index = () => {
             <ListIcon as={CheckCircleIcon} color="green.500" />
             <ChakraLink
               isExternal
-              href="https://chakra-ui.com"
+              href="https://github.com/pmndrs/zustand"
+              flexGrow={1}
+              mr={2}
+            >
+              Zustand <LinkIcon />
+            </ChakraLink>
+          </ListItem>
+          <ListItem>
+            <ListIcon as={CheckCircleIcon} color="green.500" />
+            <ChakraLink
+              isExternal
+              href="https://www.npmjs.com/package/next-seo"
+              flexGrow={1}
+              mr={2}
+            >
+              Next SEO (with Twitter OpenGraph config) <LinkIcon />
+            </ChakraLink>
+          </ListItem>
+          <ListItem>
+            <ListIcon as={CheckCircleIcon} color="green.500" />
+            <ChakraLink
+              isExternal
+              href="https://eslint.org/"
               flexGrow={1}
               mr={2}
             >
@@ -74,7 +96,7 @@ const Index = () => {
             <ListIcon as={CheckCircleIcon} color="green.500" />
             <ChakraLink
               isExternal
-              href="https://chakra-ui.com"
+              href="https://prettier.io/"
               flexGrow={1}
               mr={2}
             >
@@ -85,7 +107,7 @@ const Index = () => {
             <ListIcon as={CheckCircleIcon} color="green.500" />
             <ChakraLink
               isExternal
-              href="https://chakra-ui.com"
+              href="https://www.npmjs.com/package/husky"
               flexGrow={1}
               mr={2}
             >
@@ -96,22 +118,11 @@ const Index = () => {
             <ListIcon as={CheckCircleIcon} color="green.500" />
             <ChakraLink
               isExternal
-              href="https://chakra-ui.com"
+              href="https://www.npmjs.com/package/lint-staged"
               flexGrow={1}
               mr={2}
             >
               Lint Staged <LinkIcon />
-            </ChakraLink>
-          </ListItem>
-          <ListItem>
-            <ListIcon as={CheckCircleIcon} color="green.500" />
-            <ChakraLink
-              isExternal
-              href="https://chakra-ui.com"
-              flexGrow={1}
-              mr={2}
-            >
-              Zustand <LinkIcon />
             </ChakraLink>
           </ListItem>
         </List>
